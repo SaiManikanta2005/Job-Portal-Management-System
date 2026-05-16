@@ -1,0 +1,108 @@
+{
+  "users": [
+    {
+      "id": 1777909110970,
+      "name": "vijay",
+      "email": "vijaygadi48@gmail.com",
+      "password": "$2b$10$AuyNxCFVzIQ2jobvR.HFle6NLzchzDlcg7UliO5Pdj3voVKTvUOZu",
+      "role": "STUDENT"
+    },
+    {
+      "id": 1777909163629,
+      "name": "Raju",
+      "email": "vtu25934@veltech.edu.in",
+      "password": "$2b$10$DUsHwIy46YumnxPV4eWAt./nqjfKHazfeKO.5Z7KwFB2PbIb8jyZ6",
+      "role": "STUDENT"
+    },
+    {
+      "id": 1777909204071,
+      "name": "Vijay",
+      "email": "vijaygadi22@gmail.com",
+      "password": "$2b$10$UcgPv1RNv9IZXehbvK2by.XqDyCKMXFJdPL..rbi.xoWAT5xktmZy",
+      "role": "EMPLOYER"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Frontend Engineer",
+      "description": "Looking for a React expert to build beautiful UIs.",
+      "category": "Engineering",
+      "location": "San Francisco (Remote)",
+      "experience": "1-3 Years",
+      "salary": "₹1,20,000 - ₹1,60,000",
+      "created_at": "2026-05-04T15:37:28.484Z"
+    },
+    {
+      "id": 2,
+      "title": "Product Designer",
+      "description": "Join our creative team to shape the future of tech.",
+      "category": "Design",
+      "location": "New York",
+      "experience": "Senior",
+      "salary": "₹80,000 - ₹1,10,000",
+      "created_at": "2026-05-04T15:37:28.485Z"
+    },
+    {
+      "id": 3,
+      "title": "Data Scientist",
+      "description": "Apply ML to solve real-world problems.",
+      "category": "Data Science",
+      "location": "Austin",
+      "experience": "Entry Level",
+      "salary": "₹90,000 - ₹1,30,000",
+      "created_at": "2026-05-04T15:37:28.485Z"
+    },
+    {
+      "id": 1777909342828,
+      "employer_id": 1777909204071,
+      "title": "Senior frontend developer",
+      "description": "ALL THE BEST",
+      "category": "Engineering",
+      "location": "chennai",
+      "experience": "Fresher",
+      "salary": "40000-60000",
+      "created_at": "2026-05-04T15:42:22.828Z"
+    },
+    {
+      "id": 1777965235750,
+      "employer_id": 1777909204071,
+      "title": "frontend",
+      "description": "NA",
+      "category": "Engineering",
+      "location": "chennai",
+      "experience": "Fresher",
+      "salary": "20000-30000",
+      "created_at": "2026-05-05T07:13:55.751Z"
+    }
+  ],
+  "applications": [
+    {
+      "id": 1777909372401,
+      "job_id": 1777909342828,
+      "student_id": 1777909163629,
+      "status": "APPROVED",
+      "cover_letter": "",
+      "applied_at": "2026-05-04T15:42:52.401Z"
+    },
+    {
+      "id": 1777984722442,
+      "job_id": 1777965235750,
+      "student_id": 1777909163629,
+      "status": "PENDING",
+      "cover_letter": "",
+      "applied_at": "2026-05-05T12:38:42.442Z"
+    }
+  ],
+  "subscriptions": [],
+  "notifications": [
+    {
+      "id": 1777909389898,
+      "userId": 1777909163629,
+      "title": "Application APPROVED",
+      "message": "Your application for \"Senior frontend developer\" has been approved.",
+      "read": false,
+      "date": "2026-05-04T15:43:09.898Z"
+    }
+  ]
+}
